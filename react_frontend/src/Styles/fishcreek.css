@@ -1,0 +1,147 @@
+body {
+	background-image: linear-gradient(to bottom right, #e0f7fa, #0277bd); /* Light blue to deep blue */
+	color: #003366;
+	font-family: Verdana, Arial, sans-serif;
+	margin: 0; 
+	padding: 0; 
+	display: flex;
+	flex-direction: column;
+	align-items: center; 
+	justify-content: flex-start; 
+	min-height: 100vh; 
+}
+
+#wrapper {
+	background-color: #F0F0F0;
+	margin: 0 auto; 
+	width: 95%; 
+	min-width: 900px; 
+	max-width: 1400px; 
+	padding: 1em; 
+}
+
+header {
+	background-color: #003366;
+	background-image: url('/public/fishcreeklogo.gif');
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #F0F0F0;
+	font-family: Georgia, "Times New Roman", serif;
+	padding: 1em;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.2em;
+	text-shadow: 1px 1px 1px #777;
+	margin-top: 0.5em; /* Adds spacing above */
+}
+
+nav {
+	background-color: #5280C5;
+	font-weight: bold;
+	padding: 0.5em;
+	text-align: center;
+	margin-bottom: 1em; /* Adds spacing below */
+	white-space: nowrap; /* Prevents wrapping of nav links */
+	overflow-x: auto; /* Allows horizontal scrolling if necessary */
+}
+
+main {
+	padding: 2em;
+	text-align: center; /* Centers content */
+}
+
+dt {
+	color: #5280C5;
+	font-size: 1.1em;
+	font-family: Georgia, "Times New Roman", serif;
+	font-weight: bold;
+	margin-top: 0.5em; /* Adds spacing between items */
+}
+
+.category {
+	color: #5380C5;
+	font-family: Georgia, "Times New Roman", serif;
+	font-weight: bold;
+}
+
+footer {
+	background-color: #AEC3E3;
+	font-size: 0.70em;
+	font-style: italic;
+	padding: 1em 0.5em; 
+	text-align: center;
+	margin-top: 1em; 
+}
+
+	footer nav {
+		background-color: #F0F0F0;
+		font-size: 110%;
+		padding: 0.5em;
+	}
+
+table {
+	margin: 1em auto; 
+	border: 2px solid #000033;
+	border-collapse: collapse;
+	width: 100%;
+	max-width: 800px; 
+}
+
+td, th {
+	padding: 0.5em;
+	border: 1px solid #000033;
+	text-align: left;
+}
+
+/* Shop Page: Product Grid */
+.product-grid {
+	display: flex; 
+	flex-wrap: wrap; 
+	justify-content: space-between; 
+	gap: 1em; 
+	padding: 1em; 
+}
+
+.product {
+	border: 1px solid #AEC3E3; 
+	background-color: #FFFFFF; 
+	width: 48%; 
+	box-sizing: border-box; 
+	padding: 1em; 
+	text-align: left; 
+}
+
+	.product img {
+		float: right; 
+		max-width: 100px;
+		margin-left: 1em; 
+	}
+
+	.product form {
+		clear: both; 
+		margin-top: 1em; 
+	}
+
+/* Form Styling */
+@supports (display: grid) {
+	form {
+		display: grid;
+		grid-template-rows: auto;
+		grid-template-columns: 6em 1fr;
+		grid-gap: 1em;
+		background-color: #EAEAEA;
+		font-family: Arial, sans-serif;
+		width: 60%;
+		min-width: 20em;
+		padding: 1.5em;
+		margin: 1em auto; /* Centers form horizontally */
+	}
+
+	input[type="submit"] {
+		grid-column: 2 / 3;
+		width: 10em;
+		margin-left: 0;
+	}
+}

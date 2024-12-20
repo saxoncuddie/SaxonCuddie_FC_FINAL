@@ -1,0 +1,3 @@
+C:\Users\saxon\source\repos\FishCreekServerSaxon\FishCreekServerSaxon\obj\Debug\FishCreekServerSaxon.njsproj.AssemblyReference.cache
+C:\Users\saxon\source\repos\FishCreekServerSaxon\FishCreekServerSaxon\obj\Debug\FishCreekServerSaxon.njsproj.CoreCompileInputs.cache
+C:\Users\saxon\source\repos\FishCreekServerSaxon\FishCreekServerSaxon\bin\Microsoft.NodejsTools.WebRole.dll
