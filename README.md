@@ -7,9 +7,17 @@ Back-end: Using node.js to run a local server that is able to record and handle 
 Integration: Enhacing the site with features such as jQuery, API Integration, and other full-stack dev practices so that the site is as responsive and user friendly as possible.
 
 Full list of tools used:
+
+
 Fron-tend: HTML,CSS,JavaScript,jQuery,React App
+
+
 Back-end: Node.js
+
+
 Development tools: Visual Studio, Git, Github
+
+
 
 --IMPORTANT NOTICE--
 This project was designed so that node.js will run on local port 5000, and react app will run on local port 5173. If either of these ports are being used prior to running, the sites will not work properly.
