@@ -31,3 +31,7 @@ The react site should now be running on http://localhost:5173.
 6. Open up http://localhost:5173 in a browser of your choosing.
 7. The site should now be fully functional and ready for testing.
 If you wish to look at incoming form submission, fill out the form under the "contact" page, and go back to the command prompt for node_backend to see incoming data.
+
+Code for individual page components is in react_frontend>src>components
+Code for css stylings is in react_frontend>src>Styles
+Code for node.js server is located in node_backend>app.js
