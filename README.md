@@ -33,5 +33,9 @@ The react site should now be running on http://localhost:5173.
 If you wish to look at incoming form submission, fill out the form under the "contact" page, and go back to the command prompt for node_backend to see incoming data.
 
 Code for individual page components is in react_frontend>src>components
+
+
 Code for css stylings is in react_frontend>src>Styles
+
+
 Code for node.js server is located in node_backend>app.js
